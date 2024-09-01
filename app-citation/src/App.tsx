@@ -2,15 +2,13 @@ import { useState } from 'react'
 
 import './App.css'
 import { Button } from './components/ui/button'
+import { Cite } from './components/Cite'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <h1>Citation Generator</h1>
-      <Button>Generate Citation</Button>
-    </>
+    <div className="">
+      <Cite />
+    </div>
   )
 }
 
